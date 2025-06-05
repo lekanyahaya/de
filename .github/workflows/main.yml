@@ -17,4 +17,7 @@ jobs:
     
     - name: greeting
       run: echo good morning fam
+
+    - name: install dependency
+      run: sudo apt update
     
