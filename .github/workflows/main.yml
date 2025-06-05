@@ -20,4 +20,9 @@ jobs:
 
     - name: install dependency
       run: sudo apt update
+      
+    - name: npm installation
+      run: >
+        npm install
+        npm start
     
